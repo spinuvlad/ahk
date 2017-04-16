@@ -1,0 +1,16 @@
+http://www.script-coding.com/AutoHotkey/Send.html
+^ - ctrl
+! - alt
++ - shift
+# - win
+
+schimb de taste:
+f1::f5 ; tasta f1 lucreaza ca f5
+sc15D::!F4 ; alt + f4
+
+inserare text:
+<div>F7::Sendinput, Hello!</div> ; f7 scrie "hello!"
+sc10::SendInput, {sc10}{sc10}{sc10} ; tasta "q" scrie de 3 ori "q"
+-----------------------
+autorun win loading -> copy shutcut file in this folder:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
