@@ -14,3 +14,6 @@ sc10::SendInput, {sc10}{sc10}{sc10} ; tasta "q" scrie de 3 ori "q"
 -----------------------
 autorun win loading -> copy shutcut file in this folder:
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+
+repozitoriu:
+https://github.com/spinuvlad/ahk
