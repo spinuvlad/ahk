@@ -64,7 +64,6 @@ return ;
 ::githist::git log --pretty=format:"%h %s" --graph{Enter}
 ::gitpush::git push --set-upstream origin
 ::gitpm::git add . && git commit -m "autocomplet" && git push --set-upstream origin master{Enter}
-;okkkkkkkk
 
 F12::Sendinput, #{sc39} ; F12 = change language
 ;F2::WinMinimizeAll ; Minimize All
