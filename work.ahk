@@ -143,11 +143,11 @@ Return
  Return
 }
 
-^!h:: ; github
+^!h:: ; github-repositori
 {
  Send, ^c
  Sleep 50
- Run, https://github.com/
+ Run, https://github.com/spinuvlad?tab=repositories
  Return
 }
 
@@ -169,17 +169,22 @@ Return
 
 
 
-#w::Run "D:\install\code linux"
+!f::Run "C:\Users\Vlad\Documents\FrontEndDev" ;Alt+F
 Return
 
-#d::Run "C:\Users\User\Downloads"
+!r::Run "C:\Users\Vlad\Documents\FrontEndDev\repositories" ;Alt+R
 Return
 
+!d::Run "C:\Users\Vlad\Downloads" ;Alt+D
+Return
+
+!p::Run "C:\Users\Vlad\Documents\FrontEndDev\Practica" ;Alt+P
+Return
 
 
 #c::Run calc.exe
 
-#n::Run, D:\work\AutoHotKeyLinks\Node.js command prompt
+#w::Run, C:\Program Files (x86)\Watchtower\Watchtower Library\M\WTLibrary.exe
 Return
 
 #v::Run, D:\work\AutoHotKeyLinks\viber

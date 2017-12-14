@@ -17,3 +17,18 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
 
 repozitoriu:
 https://github.com/spinuvlad/ahk
+
+Alt+F --> FrontEndDev
+Alt+R --> repositories
+Alt+D --> Downloads
+Alt+P --> Practica
+
+Ctrl+Alt+G --> google.com
+Ctrl+Alt+E --> gmail
+Ctrl+Alt+F --> fontawesome
+Ctrl+Alt+T --> translator
+Ctrl+Alt+D --> drive
+Ctrl+Alt+H --> github repositories
+Ctrl+Alt+Y --> youtube
+
+win+C --> calc
