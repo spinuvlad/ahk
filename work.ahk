@@ -69,13 +69,6 @@ F12::Sendinput, #{sc39} ; F12 = change language
 ;F2::WinMinimizeAll ; Minimize All
 F3::WinMinimizeAllUndo
 
-
-^Right:: Send {Right}
-^Left:: Send {Left}
-Right:: Send {Enter}
-Left:: Sendinput, ^z
-return
-
 #Del::FileRecycleEmpty ; win + del
 return
 
@@ -184,19 +177,10 @@ Return
 
 #c::Run calc.exe
 
-#w::Run, C:\Program Files (x86)\Watchtower\Watchtower Library\M\WTLibrary.exe
+^t::Run, C:\Program Files\Sublime Text 3\sublime_text.exe
 Return
 
-#v::Run, D:\work\AutoHotKeyLinks\viber
-Return
-
-#e::Run, D:\work\AutoHotKeyLinks\excel 2016
-Return
-
-#o::Run, D:\work\AutoHotKeyLinks\word 2016 
-Return
-
-#p::Run, D:\work\AutoHotKeyLinks\Adobe Photoshop CC 2017
+^w::Run, C:\Program Files (x86)\Watchtower\Watchtower Library\M\WTLibrary.exe
 Return
 
 

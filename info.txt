@@ -32,3 +32,5 @@ Ctrl+Alt+H --> github repositories
 Ctrl+Alt+Y --> youtube
 
 win+C --> calc
+Ctrl+w --> watchtower library
+Ctrl+T --> Sublime Text
