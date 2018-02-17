@@ -4,13 +4,13 @@
 ;		+ - shift
 ;		# - win
 
-!x::Sendinput, ^x ; alt+x = ctrl+S  //cut
-!s::Sendinput, ^s ; alt+s = ctrl+S  //save
-!c::Sendinput, ^c ; alt+c = ctrl+C  //copy
-!v::Sendinput, ^v ; alt+v = ctrl+V  //paste
-!a::Sendinput, ^a ; alt+a = ctrl+A  //select all
-!sc33::Sendinput, ^z ; alt+< = ctrl+Z  //undo
-!sc34::Sendinput, ^y ; alt+> = ctrl+Y  //redo
+;!x::Sendinput, ^x ; alt+x = ctrl+S  //cut
+;!s::Sendinput, ^s ; alt+s = ctrl+S  //save
+;!c::Sendinput, ^c ; alt+c = ctrl+C  //copy
+;!v::Sendinput, ^v ; alt+v = ctrl+V  //paste
+;!a::Sendinput, ^a ; alt+a = ctrl+A  //select all
+;!sc33::Sendinput, ^z ; alt+< = ctrl+Z  //undo
+;!sc34::Sendinput, ^y ; alt+> = ctrl+Y  //redo
 
 
 ^Esc:: 
@@ -26,6 +26,7 @@ return ;
 ::dqs::document.querySelector('');{Left}{Left}{Left}
 ::qs::querySelector('');{Left}{Left}{Left}
 ::dqsa::document.querySelectorAll('');{Left}{Left}{Left}
+::seta::setAttribute('atribut', 'content');{Left}{Left}{Left}
 ::ga::getAttribute('');{Left}{Left}{Left}
 ::ra::removeAttribute('');{Left}{Left}{Left}
 ::ael::addEventListener('',);{Left}{Left}{Left}{Left}
@@ -166,6 +167,9 @@ Return
 Return
 
 !r::Run "C:\Users\Vlad\Documents\FrontEndDev\repositories" ;Alt+R
+Return
+
+!t::Run "C:\Users\Vlad\Documents\FrontEndDev\repositories\takwell" ;Alt+T
 Return
 
 !d::Run "C:\Users\Vlad\Downloads" ;Alt+D
