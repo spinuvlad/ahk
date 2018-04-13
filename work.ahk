@@ -17,41 +17,6 @@
 		Send !{f4} ; Simulates the keypress alt+f4
 return ;
 
-;js snippet:
-::dw::document.write();{Left}{Left}
-::ih::innerHTML
-::dgi::document.getElementById('');{Left}{Left}{Left}
-::dgt::document.getElementsByTagName('');{Left}{Left}{Left}
-::dgc::document.getElementsByClassName('');{Left}{Left}{Left}
-::dqs::document.querySelector('');{Left}{Left}{Left}
-::qs::querySelector('');{Left}{Left}{Left}
-::dqsa::document.querySelectorAll('');{Left}{Left}{Left}
-::seta::setAttribute('atribut', 'content');{Left}{Left}{Left}
-::ga::getAttribute('');{Left}{Left}{Left}
-::ra::removeAttribute('');{Left}{Left}{Left}
-::ael::addEventListener('',);{Left}{Left}{Left}{Left}
-::rel::removeEventListener('',);{Left}{Left}{Left}{Left}
-::wsi::window.setInterval(,);{Left}{Left}{Left}
-::wci::window.clearInterval(,);{Left}{Left}{Left}
-::wst::window.setTimeout(,);{Left}{Left}{Left}
-::cl::classList;
-::cla::classList.add('');{Left}{Left}{Left}
-::clr::classList.remove('');{Left}{Left}{Left}
-::clc::classList.contains('');{Left}{Left}{Left}
-::clt::classList.toggle('');{Left}{Left}{Left}
-::st::style.cssText = '';{Left}{Left}
-::dce::document.createElement('');{Left}{Left}{Left}
-::apc::appendChild();{Left}{Left}
-::rc::removeChild();{Left}{Left}
-::ib::insertBefore();{Left}{Left}
-::ia::insertAdjacentHTML('','');{Left}{Left}{Left}{Left}{Left}{Left}
-::fec::firstElementChild
-::lec::lastElementChild
-::pes::previousElementSibling
-::nes::nextElementSibling
-::pre::parentElement
-::gcs::getComputedStyle();{Left}{Left}
-
 ;git
 ::mygit::https://github.com/spinuvlad/
 ::gitlog::git log --pretty=oneline{Enter}
@@ -181,10 +146,7 @@ Return
 
 #c::Run calc.exe
 
-^t::Run, C:\Program Files\Sublime Text 3\sublime_text.exe
-Return
-
-^w::Run, C:\Program Files (x86)\Watchtower\Watchtower Library\M\WTLibrary.exe
+#v::Run, C:\Program Files\Microsoft VS Code\Code.exe
 Return
 
 
@@ -203,46 +165,6 @@ clipboard =
 send ^v
 return
 ;*******************************END*********************************
-)
-send ^v
-return
-;*******************************END*********************************
-
-;******************************START********************************
-::htmlstart::
-clipboard = 
-(
-<!DOCTYPE html>
-<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="ru">
-<!--<![endif]-->
-<head>
-	<meta charset="utf-8" />
-	<title>Заголовок</title>
-	<meta name="description" content="" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
-</head>
-<body>
-
-	
-	<!--[if lt IE 9]>
-	<script src="libs/html5shiv/es5-shim.min.js"></script>
-	<script src="libs/html5shiv/html5shiv.min.js"></script>
-	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="libs/respond/respond.min.js"></script>
-	<![endif]-->
-	<script src="js/common.js"></script>
-	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
-	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
-</body>
-</html>
 )
 send ^v
 return
