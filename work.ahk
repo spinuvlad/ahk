@@ -23,12 +23,11 @@ return ;
 ::gitreset::git reset --hard 
 ::gb::git branch
 ::gc::git checkout
-::gs:: git status{Enter}
-::gad::git add . && git commit -m ""{Left}
-::gcm::git commit -m ""{Left}
+::gs::git status{Enter}
+::gadd::git add .
+::gcom::git commit -m ""{Left}
 ::githist::git log --pretty=format:"%h %s" --graph{Enter}
-::gitpush::git push --set-upstream origin
-::gitpm::git add . | git commit -m "autocomplet" | git push origin master{Enter}
+::gpush::git push --set-upstream origin
 
 F12::Sendinput, #{sc39} ; F12 = change language
 ;F2::WinMinimizeAll ; Minimize All
