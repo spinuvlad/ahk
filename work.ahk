@@ -12,7 +12,6 @@
 ;!sc33::Sendinput, ^z ; alt+< = ctrl+Z  //undo
 ;!sc34::Sendinput, ^y ; alt+> = ctrl+Y  //redo
 
-
 ^Esc:: 
 		Send !{f4} ; Simulates the keypress alt+f4
 return ;
@@ -29,7 +28,7 @@ return ;
 ::gcm::git commit -m ""{Left}
 ::githist::git log --pretty=format:"%h %s" --graph{Enter}
 ::gitpush::git push --set-upstream origin
-::gitpm::git add . && git commit -m "autocomplet" && git push --set-upstream origin master{Enter}
+::gitpm::git add . | git commit -m "autocomplet" | git push origin master{Enter}
 
 F12::Sendinput, #{sc39} ; F12 = change language
 ;F2::WinMinimizeAll ; Minimize All
