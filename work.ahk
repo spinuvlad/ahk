@@ -132,6 +132,8 @@ Return
 !d::Run "C:\Users\Vlad\Downloads" ;Alt+D
 Return
 
+!r::Run "C:\Users\vlad\Documents\Repositories" ;Alt+R
+Return
 
 #c::Run calc.exe
 
