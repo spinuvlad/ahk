@@ -126,19 +126,10 @@ Return
 
 
 
-!f::Run "C:\Users\Vlad\Documents\FrontEndDev" ;Alt+F
-Return
-
-!r::Run "C:\Users\Vlad\Documents\FrontEndDev\repositories" ;Alt+R
-Return
-
-!t::Run "C:\Users\Vlad\Documents\FrontEndDev\repositories\takwell" ;Alt+T
+!f::Run "C:\Users\vlad\Documents\Development" ;Alt+F
 Return
 
 !d::Run "C:\Users\Vlad\Downloads" ;Alt+D
-Return
-
-!p::Run "C:\Users\Vlad\Documents\FrontEndDev\Practica" ;Alt+P
 Return
 
 
